@@ -29,7 +29,7 @@
 
 <nav>
 {% for item in site.data.navi %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
     {{ item.name }}
     </a>
 {% endfor %}
