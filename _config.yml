@@ -1,1 +1,8 @@
 theme: jekyll-theme-midnight
+#permalink: /:categories/:year/:month/:day/:title
+permalink: pretty # or none
+
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
