@@ -1,4 +1,4 @@
-theme: jekyll-theme-chirpy
+remote_theme: jekyll-theme-chirpy
 #permalink: /:categories/:year/:month/:day/:title
 permalink: pretty # or none
 
