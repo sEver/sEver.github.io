@@ -1,6 +1,0 @@
----
----
-
-# Second
-
-Second content

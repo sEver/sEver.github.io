@@ -1,8 +1,0 @@
-remote_theme: jekyll-theme-chirpy
-#permalink: /:categories/:year/:month/:day/:title
-permalink: pretty # or none
-
-collections:
-  collection:
-    output: true
-    permalink: /:collection/:name
