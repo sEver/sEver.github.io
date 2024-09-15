@@ -1,7 +1,7 @@
-# How to work with twitch and GeForce Experience
+# How to stream to Twitch with GeForce Experience
 - Have your GeForce Experience logged into Twitch (`Settings (cogwheel icon)` -> `Connect` -> `Twitch`)
 - Be logged into Twitch on a web browser (`twitch.tv` -> `Log In`)
-- On `twitch.tv` go to your portrait **top right corner** and then `Creator Dashboard` 
+- In a browser, go to `twitch.tv` then go to your portrait **top right corner** and then `Creator Dashboard` 
 - On the menu in the **left column** go to `Stream Manager`
 - Here you can go to `Edit Stream Info` and enter the following:
   - `Stream Title` - This will be the tile of your stream and the recording of it (aka VOD)
