@@ -1,0 +1,14 @@
+# How to work with twitch and GeForce Experience
+- Have your GeForce Experience logged into Twitch (`Settings (cogwheel icon)` -> `Connect` -> `Twitch`)
+- Be logged into Twitch on a web browser (`twitch.tv` -> `Log In`)
+- On `twitch.tv` go to your portrait **top right corner** and then `Creator Dashboard` 
+- On the menu in the **left column** go to `Stream Manager`
+- Here you can go to `Edit Stream Info` and enter the following:
+  - `Stream Title` - This will be the tile of your stream and the recording of it (aka VOD)
+  - `Category` - this is going to be the game you're streaming (in most cases)
+  - when you click `done` on that, you're still in your stream manager, and stream is offline
+- In GeForce Experience go to `Broadcast Live` -> `Start`
+  - Depending if the active window is supported by GeForce Experience or not, you'll get either:
+    - A window with ability to select Twitch as destination and enter `Stream title` (this will override the title set up earlier in `Stream Manager`
+    - Or a question "Do you want to turn on Desktop Capture and start broadcasting" and then the window mentioned above
+  - Confirming the title and clicking "Go LIVE" will start the stream* (If it doesn't, which happens, we currently do not have the solution, stand by for updates).
