@@ -2,3 +2,4 @@
 
 ## Some assorted documents
 - [A basic how-to on streaming to Twitch with GeForce Experience](docs/how-to-twitch.md)
+- [Random notes about the AI stuff](docs/state-of-ai.md)
