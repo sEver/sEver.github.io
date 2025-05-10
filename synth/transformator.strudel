@@ -1,0 +1,58 @@
+/*  @title TRANSFORMATOR
+    @by sEver
+    @url https://github.com/sEver
+    @version 1.666.1
+*/
+const BASE_CPM = 32;
+
+$ominous_01: note(`<
+40 40.4 40 25 ~@0.4
+>`)
+  .attack(`<4 1!100>`)
+  .delay(0)
+  .sustain(1)
+  .release(1)
+  .sound("gm_synth_bass_2:2")
+  .lpf(666)
+  .hpf(200)
+  .gain(1)
+  .pan(0.444)
+  .room(0.666)
+  .cpm(BASE_CPM/2)
+
+$rhytm_01: n(`
+  <~!5 [[2 2 2] 1 1 1 1 ]!100>
+`)
+  .sound("<sd>")
+  .distort("2:0.01 3:0.01 4:0.01 5:0.01")
+  .gain(`<0!5 0.01 0.05 0.1 0.2 0.5 0.7 1!100>`)
+  .lpf(9009)
+  .hpf(1441)
+  .room(0.3)
+  .cpm(BASE_CPM)
+
+$beep_01: note(`
+  <[77 ~!5]!2@0.1 >
+`)
+  .gain(0.2)
+  .sound("gm_pad_warm")
+  .distort("<2:0.01 3:0.01 4:0.01 5:0.01>")
+  .gain(`<0!5 0.01 0.05 0.1 0.2 0.5 0.7 1!100>`)
+  .lpf(9009)
+  .hpf(1441)
+  .room(0.3)
+  .cpm(BASE_CPM)
+
+$beep_02: note(`
+  <[88 ~!5]!2@0.05 >
+`)
+  .room(0.5)
+  .delay(0.5)
+  .sound("gm_pad_warm")
+  .gain(0.2)
+  .sometimes(x=>gain(0.01))
+  .lpf(9009)
+  .hpf(1441)
+  .room(0.3)
+  .cpm(BASE_CPM*3)
+
