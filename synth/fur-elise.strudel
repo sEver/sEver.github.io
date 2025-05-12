@@ -14,8 +14,11 @@ $: note(`<
   [a3@2 ~@1 e3 e3 a3]@1.5
   [b3@2 ~@1 e3 c4 b3]@1.5
   [a@6]@1.5
-   ~@2
-        >`)
+   ~@1
+  >`)
   .sound("gm_acoustic_bass:1")
-  .room(0.5)
+  .room(0.8)
+  .attack(0.3)
+  .release(0.6)
+  .fast(1.5)
 .pianoroll({minMidi: 50, maxMidi: 90, overscan: 60, fold: 0, vertical: 1, labels: 1})
