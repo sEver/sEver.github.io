@@ -17,4 +17,4 @@
 
 ## Tracks
 01. TRANSFORMATOR - https://strudel.cc/?TY7_Mnl_cx8x
-02. Dark Fairy's Lullaby - https://strudel.cc/?66uFPzIqWj31
+02. Dark Fairy's Lullaby - https://strudel.cc/?tEFuar7PCAYf
