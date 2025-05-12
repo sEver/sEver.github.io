@@ -21,4 +21,4 @@ $: note(`<
   .attack(0.3)
   .release(0.6)
   .fast(1.5)
-.pianoroll({minMidi: 50, maxMidi: 90, overscan: 60, fold: 0, vertical: 1, labels: 1})
+.pianoroll({minMidi: 50, maxMidi: 90, overscan: 60, fold: 0, vertical: 1, labels: 1, playhead: 0.1})
