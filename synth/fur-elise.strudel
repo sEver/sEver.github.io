@@ -1,3 +1,8 @@
+/*  @title Fur Elise
+    @by sEver
+    @url https://github.com/sEver
+    @version 0.1
+*/
 setCps(60/60)
 
 $: note(`<
@@ -11,6 +16,6 @@ $: note(`<
   [a@6]@1.5
    ~@2
         >`)
-  .sound("tubularbells")
-  
-.scope()
+  .sound("gm_acoustic_bass:1")
+  .room(0.5)
+.pianoroll({minMidi: 50, maxMidi: 90, overscan: 60, fold: 0, vertical: 1, labels: 1})
