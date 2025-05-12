@@ -9,7 +9,8 @@
 - https://onlinesequencer.net/
 - https://synth.playtronica.com/virtual-piano/
 - https://nicroto.github.io/viktor/
-- 
+- https://flok.cc/ - for Livecoding (see https://github.com/munshkr/flok)
+  
 
 ## Resources
 - https://learningsynths.ableton.com/
