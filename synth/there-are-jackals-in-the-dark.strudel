@@ -1,0 +1,57 @@
+/*  @title THERE ARE JACKALS IN THE DARK
+    @by sEver
+    @date 2025-05-13
+    @url https://github.com/sEver
+    @version 01
+*/
+
+$grhrhrhrhr: note(`
+  <20 30 25 22>
+`).sound("gm_fx_brightness:8").adsr("1:1:1:1")
+.gain(`
+<.6 .7 .8 .9 1!100>
+`)._spectrum()
+$flash: note(`
+  <20 30 25 22>
+  `).sound("gm_fx_brightness").adsr("1:1:1:1")
+  .add(note(`
+  <0 10 5 12>/4
+  `))
+  .mask(`
+    <0 1 1 1 1>/4
+  `)
+  .gain(sine.range(0.5, 0.9).slow(3))
+._spectrum()
+$keys: note(`<
+  [70 71 73 71]
+  [70 71 74 71]
+  [70 74 71 70]
+  [71 73 71 70]
+>`          
+).sound("gm_pizzicato_strings:0").adsr(`0.2:0.2:0.1:0.2`)
+  .mask(`
+    <0!4 1!8>/4
+  `)
+  .gain(`
+    <.6 .7 .8 .9 1!2>
+  `)
+.room(0.3).roomsize(10).fast(1.5).gain(tri.range(0.5, 1).slow(2))
+  ._pianoroll({vertical:1, fold: 0, autorange: 1, labels: 1, playhead: 0, cycles:0.5})
+$bass_guitar: note(`<
+  [32 34 33 30]!3
+  [[32 35 33] 40@2] 
+  [41@2 [40 41] 40]
+  [[38 36] 38@0.5 30@2.5]
+>`)
+  .velocity(`<
+    [2 2 3 3]!3
+    [4 4@2]
+    [5@2 6 7]
+    [8 9 10]
+  >`).gain(0.5)
+
+  .slow(2)
+  .mask(`
+    <0 1 0>/12
+  `)
+  .sound('gm_electric_guitar_jazz')
