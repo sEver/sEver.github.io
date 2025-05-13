@@ -18,3 +18,5 @@
 ## Tracks
 01. TRANSFORMATOR - https://strudel.cc/?2fNuB2K7ByE6
 02. Dark Fairy's Lullaby - https://strudel.cc/?4bAMxyipfXhn
+03. THERE ARE JACKALS IN THE DARK - https://strudel.cc/?mj7CWOeyWtXj
+  
