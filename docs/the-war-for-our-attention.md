@@ -11,7 +11,7 @@ Every digital product seem to try to be a storefront of some kind. Cross-selling
 
 Is commerce really necessary in all aspects of our digital lifes?
 
-## High Profile Cases
+## High Profile Cases in paid apps
 
 We've been ranting about this for years now. 
 
