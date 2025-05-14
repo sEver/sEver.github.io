@@ -19,7 +19,7 @@ We've been ranting about this for years now.
 
 Back in 2021, Spotify has decided to try and "promote" podcasts to people, 
 making the "Episodes for you" the top row of content on the app. The suggested Podcast episodes there were mostly controversial, fear mongering, or sexual in nature NSFW clickbait. 
-[Users weren't very too about it.](https://community.spotify.com/t5/Other-Podcasts-Partners-etc/Episodes-for-you-showing-disgusting-contents-on-top-of-the-app/td-p/5258445)
+[Users weren't happy about it.](https://community.spotify.com/t5/Other-Podcasts-Partners-etc/Episodes-for-you-showing-disgusting-contents-on-top-of-the-app/td-p/5258445)
 
 This, mind you, dear reader, happened on an app, that we already pay money for, as it reached users of both paid and free plans.
 
