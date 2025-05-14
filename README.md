@@ -3,4 +3,4 @@
 ## Some assorted documents
 - [A basic how-to on streaming to Twitch with GeForce Experience](docs/how-to-twitch.md)
 - [Random notes about the AI stuff](docs/state-of-ai.md)
-- [Blender Video Editing Quick Tip Sheet](Blender-Video-Editing-Quick-Tip-Sheet.md)
+- [Blender Video Editing Quick Tip Sheet](docs/blender-video-editing-quick-tip-sheet.md)
