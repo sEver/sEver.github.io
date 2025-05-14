@@ -65,7 +65,7 @@ This solution is relatively complex, and will be described in detail in a separa
 Hiding the game-related content on netflix can be achieved by adding the following CSS code to the app.
 Results in both `cloud` and `mobile` game-related horizontal rows, as well as the big main banner at the top, when it's about games, are hidden by it. 
 
-The code is here: https://gist.github.com/sEver/ca98ad4a1b0fffe5f88802736f7f5797
+[The code is available here](https://gist.github.com/sEver/ca98ad4a1b0fffe5f88802736f7f5797)
 And also pasted below:
 
 ```CSS
