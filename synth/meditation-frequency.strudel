@@ -1,0 +1,28 @@
+/*  @title Meditation Frequency
+    @by sEver
+    @url https://github.com/sEver
+    @version 0
+*/
+
+$vocal: 
+  note("<50 52 51 53 55 54 57 58 60 59>")
+    .add(note("[~@0.01 -2, 0@0.99, 2 ~@0.02]"))
+    .adsr("4:1:0.9:4")
+    .gain(0.5)
+    .fm(69)
+    .hpf(666)
+    .lpf(6969)
+    .sound("gm_pad_choir:5")
+    ._scope()
+    .cpm(9)
+;//
+$vocal2: 
+  note("<50 52 51 53 52 51>")
+    .add(note("[0]"))
+    .adsr("5:2:1:5")
+    .gain(0.5)
+    .room(0.3)
+    .fm(12)
+    .sound("gm_oboe:1,gm_pad_new_age:2")._scope().cpm(8)
+;//
+
