@@ -15,6 +15,8 @@ _Is commerce really necessary in all aspects of our digital lives?_
 
 We've been ranting about this for years now. 
 
+
+
 ### Spotify
 
 Back in 2021, Spotify has decided to try and "promote" podcasts to people, 
@@ -24,6 +26,8 @@ There was of course no way for the user to alter the order of things on the home
 [Users were outraged](https://community.spotify.com/t5/Other-Podcasts-Partners-etc/Episodes-for-you-showing-disgusting-contents-on-top-of-the-app/td-p/5258445).
 
 This, mind you, dear reader, happened on an app, that we already pay money for, as it reached users of both paid and free plans.
+
+
 
 ### Netflix
 
@@ -39,6 +43,8 @@ There is no way to disable this behavior in netflix, no way to opt out of gettin
 
 And unsurprisingly, [the users are outraged again](https://www.reddit.com/r/netflix/comments/1843gdv/disable_games/).
 
+
+
 ## Fighting back
 
 Luckily for us, The Web was built upon standards and principles which did not leave us defenseless in the hands of corporations doing whatever they want to our information intake channels. 
@@ -51,6 +57,8 @@ There are a few ways to do that.
 2. Dedicated Browser Extension that adds our own custom JS or CSS code to the webapp. (medium complexity, but quite versatile)
 3. Dedicated Browser Extension that specifically targets the annoyances we want to remove. (easiest)
 
+
+
 ### 1. Modifying web-apps with Development Tools
 
 In the past, there was an option to add custom user style CSS file to Google Chrome, which could override whatever we wanted on whatever page we wanted. 
@@ -59,7 +67,11 @@ This was the simplest single-file solution, but has since been disabled.
 It is still possible to use Google Chrome DevTools to modify a file and add custom CSS to the target pages. 
 This solution is relatively complex, and will be described in detail in a separate, future article.
 
+
+
 ### 2. Modifying web-apps with Browser Extension allowing us to add user-styles and user-scripts
+
+
 
 #### The Case of Netflix Games
 
@@ -89,6 +101,9 @@ div[data-list-context="popularTitles"].lolomoRow
 
 Now, to add this code to the web-app, we need a Browser Extension to add custom styles to the page. These custom styles are also known as `User Styles`.
 
+
+
+
 #### What are User Styles? 
 
 When CSS was being conceived, it was immediately obvious, that the author of a webpage can style it in a way that would not meet the needs or preferences of the user.
@@ -97,6 +112,8 @@ For this reason, the concept of a `User Style Sheet` was included in the design.
 A Style Sheet that can be defined by the User, to apply their own preferences to the web pages they were viewing. 
 
 See some reference sources below:
+
+https://www.w3.org/dpub/IG/wiki/User_Style_sheets
 
 > CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, **user preferences**, or web designers. [...] this separation maintains the **accessibility and readability of the content**, ensuring that the site is **usable for all users**, including those **with disabilities**. Its multi-faceted approach, including considerations for selector specificity, rule order, and media types, ensures that websites are visually coherent and **adaptive across different devices and user needs**, striking a balance between design intent and **user accessibility**. -- https://en.wikipedia.org/wiki/CSS#Sources // emphasis the author
 
@@ -107,9 +124,12 @@ See some reference sources below:
 > In order to **ensure that users can control styles**, CSS2 changes the semantics of the "!important" operator defined in CSS1. In CSS1, authors always had final say over styles. In CSS2, if a **user's style sheet** contains "!important", it **takes precedence** over any applicable rule in an author's style sheet. This is an important feature to users who require or must avoid certain color combinations or contrasts, users who require large fonts, etc. -- https://www.w3.org/1999/06/NOTE-CSS-access-19990616 // emphasis by the author
 
 
+
 #### Popular Browser Extensions for user styles
 
 This part needs a little history, as it seems people who embrace the core idea of the Web - that the user should have easy access to changing how the Web looks for them, are facing various difficulties on this path. 
+
+
 
 ##### Stylish and UserStyles.org - The first major `User Style Sheet` project, which after being sold, started stealing user data
 
@@ -122,6 +142,8 @@ An extension to apply custom styles to any web page, and a dedicated web portal 
 A dream come true for the idea of user-customized web. The project was developed on GitHub (https://github.com/stylish-userstyles/stylish-chrome) and all was good. For a time.
 
 Then it ended.
+
+
 
 ##### The Downfall of `Stylish` and `UserStyles.org`
 
@@ -160,6 +182,8 @@ They have won that particular battle, but they haven't won the war.
 
 There are alternatives for both the extension and the User Styles sharing portal. See below.
 
+
+
 ##### `Stylus` - a free and open source community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
 
 This extension was a community response to the whole `Stylish` data stealing crisis. Redone with the single purpose - to continue providing the great usability that the original tool provided, but obviously without the whole spyware layer. 
@@ -175,6 +199,8 @@ There is also https://UserStyles.world portal, which enables publishing and down
 Since the entire value of UserStyles.org consists of User Styles added there by the users, to prevent the company owning it from deleting the User Styles history contained therein, all User Styles are mirrored onto https://uso.kkx.one/browse/styles and many authors import their User Styles from there into https://UserStyles.world
 
 The crisis was averted, and users of The Web can again customize their web experience with ease and share the customizations. 
+
+
 
 ##### Using `Stylus` and `UserStyles.world` to remove annoyances from your web apps
 
@@ -214,6 +240,8 @@ div[data-list-context="popularTitles"].lolomoRow
 }
 
 ```
+
+
 
 ### 3. Dedicated browser extensions that specifically target annoyances we want to remove 
 // To be expanded with ad blockers history and the `Manifest V2 vs V3` crisis, as well as Google deliberately lowering quality of their own search results.
