@@ -147,6 +147,12 @@ There are alternatives for both the extension and the User Styles sharing portal
 >  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
 
 
+### 3. Dedicated browser extensions that specifically target annoyances we want to remove
+
+Ad blockers such as UBlock Origin allow user-definable filters that can modify site's CSS.
+
+- https://ublockorigin.com/ - the most powerful one
+
 
 
 
