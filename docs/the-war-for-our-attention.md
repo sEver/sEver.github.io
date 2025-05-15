@@ -215,7 +215,8 @@ div[data-list-context="popularTitles"].lolomoRow
 
 ```
 
-### 3. Dedicated browser extensions that specifically target annoyances we want to remove
+### 3. Dedicated browser extensions that specifically target annoyances we want to remove 
+// To be expanded with ad blockers history and the `Manifest V2 vs V3` crisis, as well as Google deliberately lowering quality of their own search results.
 
 Ad blockers such as UBlock Origin allow user-definable filters that can modify site's CSS.
 
