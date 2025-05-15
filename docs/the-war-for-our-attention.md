@@ -82,3 +82,72 @@ div[data-list-context="popularTitles"].lolomoRow {
 ```
 
 Now, to add this code to the web-app, we need a Browser Extension to add custom styles to the page, also known as `user-style`s.
+
+#### What are User Styles? 
+
+When CSS was being conceived, it was immediately obvious, that the author of a webpage can style it in a way that would not meet the needs or preferences of the user.
+
+For this reason, the concept of a `User Style Sheet` was included in the design. 
+A Style Sheet that can be defined by the User, to apply their own preferences to the web pages they were viewing. 
+
+See some reference sources below:
+
+> CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, **user preferences**, or web designers. [...] this separation maintains the **accessibility and readability of the content**, ensuring that the site is **usable for all users**, including those **with disabilities**. Its multi-faceted approach, including considerations for selector specificity, rule order, and media types, ensures that websites are visually coherent and **adaptive across different devices and user needs**, striking a balance between design intent and **user accessibility**. -- https://en.wikipedia.org/wiki/CSS#Sources // emphasis the author
+
+> One of the goals of CSS is to **allow users greater control over presentation**. Someone who finds red italic headings difficult to read **may apply a different style sheet**. Depending on the browser and the website, **a user may choose from various style sheets provided by the designers, or may remove all added styles, and view the site using the browser's default styling, or may override just the red italic heading style without altering other attributes**. -- https://en.wikipedia.org/wiki/CSS#Sources // emphasis the author 
+
+> If a page's layout information is stored externally, a **user can decide to disable the layout information entirely**, leaving the site's bare content still in a readable form. Site authors may also offer multiple style sheets, which can be used to completely change the appearance of the site without altering any of its content. Most modern web browsers also **allow the user to define their own style sheet**, which can include rules that **override the author's layout rules**. This allows users, for example, to bold every hyperlink on every page they visit. -- https://en.wikipedia.org/wiki/Style_sheet_(web_development)#Customization // emphasis by the author
+
+> In order to **ensure that users can control styles**, CSS2 changes the semantics of the "!important" operator defined in CSS1. In CSS1, authors always had final say over styles. In CSS2, if a **user's style sheet** contains "!important", it **takes precedence** over any applicable rule in an author's style sheet. This is an important feature to users who require or must avoid certain color combinations or contrasts, users who require large fonts, etc. -- https://www.w3.org/1999/06/NOTE-CSS-access-19990616 // emphasis by the author
+
+
+#### Google Chrome Browser Extensions for user styles
+
+This part needs a little history, as it seems people who embrace the core idea of the Web - that the user should have easy access to changing how the Web looks for them, are facing various difficulties on this path. 
+
+##### Stylish and UserStyles.org - The first major `User Style Sheet` project, which after being sold, started stealing user data
+
+While searching the web for "User Styles" You will most likely find: 
+- `UserStyles.org` - a platform for publishing and sharing user styles.
+- Browser Extension `Stylish` that has been downloaded by over 2'000'000 users. 
+
+This was the User Style heaven for everyone, up until around 2016. The project was developed on GitHub (https://github.com/stylish-userstyles/stylish-chrome) and all was good. Then it ended.
+
+Original creator of `Stylish` and `UserStyles.org` sold the project, and the new owner sold it again in 2017 to a web analytics company called Similar Web. Stylish extension was used since then to literally steal all the browsing history of it's users. Every URL the user have opened, including all the keys in the URLs, together with their unique ID, and their IP address was in it's entirety sent to their server. SimilarWeb knew everything about each of the `Stylish` users, and never even asked the users for permission. 
+In a forum post, they just wrote "Stylish users will be joining SimilarWeb’s market research panel". 
+
+See this article for some details: https://robertheaton.com/2018/07/02/stylish-browser-extension-steals-your-internet-history/
+
+In 2018, they were removed from ChromeWebStore and uninstalled from all user's browsers for stealing user data. 
+After that, they got back, but this time they ask you for permission. 
+
+They push for that permission quite hard (there are literally 11 colorful buttons to agree, in different languages), and also want you to create an account on userstyles.org. 
+
+Although `userstyles.org` portal contains a lot of styles and of itself it is not a threat, besides being a bit buggy, the permission-hungry, spywary `Stylish` extension on the other hand is obviously absolutely not recommended.
+
+In the context of the war for our attention, `Stylish` was one of the most popular tools that has been putting some control in the hands of the users. 
+It was allowing them to alter the webpages, removing ads, feeds, and other annoyances with ease, for 11 years of the internet history, from 2005 up to 2016. 
+It is quite ironic that such a tool was bought and destroyed by a company providing data for the advertisement industry. 
+An industry which would very much like to see us without control over what we see on the web. 
+
+They have won that particular battle, but they haven't won the war. 
+
+Luckily, there are alternatives for both the extension and the User Styles sharing portal. 
+
+##### `Stylus` and `UserStyles.world` - a free and open source, community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
+
+>  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
