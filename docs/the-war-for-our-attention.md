@@ -78,7 +78,7 @@ This solution is relatively complex, and will be described in detail in a separa
 Let's use it as an example for how a user can fight back against products pushing on them things they'd rather not see. 
 
 Hiding the abovementioned game-related content on netflix can be achieved by adding the following CSS code to the app.
-Results in both `cloud` and `mobile` game-related horizontal rows, as well as the big main banner at the top, when it's about games, are hidden by it. 
+Results in both `cloud` and `mobile` game-related horizontal rows, as well as the big main banner at the top, when it's about games, being hidden by it. 
 
 [The code is available here](https://gist.github.com/sEver/ca98ad4a1b0fffe5f88802736f7f5797)
 And also pasted below:
