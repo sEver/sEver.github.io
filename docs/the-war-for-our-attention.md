@@ -113,30 +113,39 @@ While searching the web for "User Styles" You will most likely find:
 
 This was the User Style heaven for everyone, up until around 2016. The project was developed on GitHub (https://github.com/stylish-userstyles/stylish-chrome) and all was good. Then it ended.
 
-Original creator of `Stylish` and `UserStyles.org` sold the project, and the new owner sold it again in 2017 to a web analytics company called Similar Web. Stylish extension was used since then to literally steal all the browsing history of it's users. Every URL the user have opened, including all the keys in the URLs, together with their unique ID, and their IP address was in it's entirety sent to their server. SimilarWeb knew everything about each of the `Stylish` users, and never even asked the users for permission. 
+Original creator of `Stylish` and `UserStyles.org` sold the project, and the new owner sold it again in 2017 to a web analytics company called Similar Web. Stylish extension was then used to literally steal all the browsing history of it's users. Every URL the user have opened, including all the keys in the URLs, together with their unique ID, and their IP address were in their entirety sent to their server. SimilarWeb knew everything about each of the `Stylish` users web activity, and never even asked the users for permission to collect it. 
 In a forum post, they just wrote "Stylish users will be joining SimilarWeb’s market research panel". 
 
 See this article for some details: https://robertheaton.com/2018/07/02/stylish-browser-extension-steals-your-internet-history/
 
-In 2018, they were removed from ChromeWebStore and uninstalled from all user's browsers for stealing user data. 
+In 2018, `Stylish` was removed from ChromeWebStore and the Firefox Addon Portal, and uninstalled from all user's browsers for stealing user data. 
 After that, they got back, but this time they ask you for permission. 
 
 They push for that permission quite hard (there are literally 11 colorful buttons to agree, in different languages), and also want you to create an account on userstyles.org. 
+As they say in the extension: "We’re BEST at showing you styles for sites WHEN you visit them meaning we need access to that information. Meaning we're gonna need your agreement". 
+From a Web Analytic company that sells data about people browsing habits, and used to steal that data, does that sound like a true statement? 
+Lying about this breaches multiple laws and regulations regarding privacy. 
 
-Although `userstyles.org` portal contains a lot of styles and of itself it is not a threat, besides being a bit buggy, the permission-hungry, spywary `Stylish` extension on the other hand is obviously absolutely not recommended.
+Although `userstyles.org` portal itself contains a lot of styles and is not as much of a threat, besides being a bit buggy, the permission-hungry, spywary `Stylish` extension is to be avoided, if you care about your privacy at all. 
+
+
 
 In the context of the war for our attention, `Stylish` was one of the most popular tools that has been putting some control in the hands of the users. 
 It was allowing them to alter the webpages, removing ads, feeds, and other annoyances with ease, for 11 years of the internet history, from 2005 up to 2016. 
+
 It is quite ironic that such a tool was bought and destroyed by a company providing data for the advertisement industry. 
 An industry which would very much like to see us without control over what we see on the web. 
 
 They have won that particular battle, but they haven't won the war. 
 
-Luckily, there are alternatives for both the extension and the User Styles sharing portal. 
+
+
+There are alternatives for both the extension and the User Styles sharing portal. See below.
 
 ##### `Stylus` and `UserStyles.world` - a free and open source, community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
 
 >  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
+
 
 
 
