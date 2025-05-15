@@ -199,8 +199,8 @@ This extension was a community response to the whole `Stylish` data stealing cri
 
 The extension is available for both Chromium based browsers and Firefox, and has 800k users in total at the time of writing. 
 
-[Stylus page on ChromeWebStore](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) for Chromium based browsers (Chrome, Edge, Opera)
-[Stylus page on Mozzilla Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) for Firefox
+- [Stylus page on ChromeWebStore](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) for Chromium based browsers (Chrome, Edge, Opera)
+- [Stylus page on Mozzilla Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) for Firefox
 
 There is also https://UserStyles.world portal, which enables publishing and downloading User Styles and is in no way connected to UserStyles.org
 
