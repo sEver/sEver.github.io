@@ -197,7 +197,8 @@ This extension was a community response to the whole `Stylish` data stealing cri
 
 >  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
 
-The extension is available for both Chromium based browsers and Firefox, and with 800k users in total, 
+The extension is available for both Chromium based browsers and Firefox, and has 800k users in total at the time of writing. 
+
 [Stylus page on ChromeWebStore](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) for Chromium based browsers (Chrome, Edge, Opera)
 [Stylus page on Mozzilla Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) for Firefox
 
