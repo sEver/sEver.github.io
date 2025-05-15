@@ -111,7 +111,10 @@ When CSS was being conceived, it was immediately obvious, that the author of a w
 For this reason, the concept of a `User Style Sheet` was included in the design. 
 A Style Sheet that can be defined by the User, to apply their own preferences to the web pages they were viewing. 
 
-See some reference sources below:
+Take a look at the conformance specification of CSS (UAs in here means User Agents):
+> UAs must allow users to specify a file that contains the user style sheet. UAs that run on devices without any means of writing or specifying files are exempted from this requirement. Additionally, UAs may offer other means to specify user preferences, for example, through a GUI. -- https://www.w3.org/TR/CSS2/conform.html#conformance
+
+See some additional reference sources below:
 
 https://www.w3.org/dpub/IG/wiki/User_Style_sheets
 
@@ -123,9 +126,13 @@ https://www.w3.org/dpub/IG/wiki/User_Style_sheets
 
 > In order to **ensure that users can control styles**, CSS2 changes the semantics of the "!important" operator defined in CSS1. In CSS1, authors always had final say over styles. In CSS2, if a **user's style sheet** contains "!important", it **takes precedence** over any applicable rule in an author's style sheet. This is an important feature to users who require or must avoid certain color combinations or contrasts, users who require large fonts, etc. -- https://www.w3.org/1999/06/NOTE-CSS-access-19990616 // emphasis by the author
 
+As we can see, the User's ability to override how a website (and therefore a web app) is displayed, is by design included within the very foundations of The Web. 
+Firefox still respects that requirements, while Chromium used to, but stopped at some point, stating that this can be done with extensions. 
+
+To extensions then we go.
 
 
-#### Popular Browser Extensions for user styles
+#### Popular Browser Extensions for User Styles
 
 This part needs a little history, as it seems people who embrace the core idea of the Web - that the user should have easy access to changing how the Web looks for them, are facing various difficulties on this path. 
 
