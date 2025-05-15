@@ -32,8 +32,8 @@ At the time of writing (2025) the mobile games are sometimes advertised even in 
 Paying users of a movie app, instead of getting a movie suggestion, are getting a game suggestion, 
 and it's also a game for a different platform from the one they're currently using netflix on. 
 
-As we know - Mobile games are full of borderline gambling mechanics and psychological tricks aiming to trigger addiction mechanism in their users.
-Mobile games are widely known to have the most toxic, player-abusing mechanics in gaming, and in general are not liked that much for it. 
+As we know - Mobile games are full of borderline gambling and well researched and tested psychological tricks, aiming to trigger addiction mechanism in their users.
+They are widely known to have the most toxic, player-abusing systems in gaming, and in general are not liked that much for it. 
 Yet still. Netflix chose to push them on us. 
 There is no way to disable this behavior in netflix, no way to opt out of getting mobile games pushed onto you in your movie app. 
 
@@ -47,22 +47,25 @@ Thanks to that, it is possible, and actually quite easy, to modify the behavior,
 We can remove unwanted content and other annoyances from web apps, by modifying their code after the app code is loaded on our machine. 
 
 There are a few ways to do that.  
-1. The browsers development mode can be used to modify the HTML/JS/CSS code of the app directly. (complex)
+1. The browsers Developer Tools can be used to modify the HTML/JS/CSS code of the app directly. (complex)
 2. Dedicated Browser Extension that adds our own custom JS or CSS code to the webapp. (medium complexity, but quite versatile)
-3. Dedicated Browser Extension that specifically targets the annoyances we want to remove. (easy)
+3. Dedicated Browser Extension that specifically targets the annoyances we want to remove. (easiest)
 
 ### 1. Modifying web-apps with Development Tools
 
 In the past, there was an option to add custom user style CSS file to Google Chrome, which could override whatever we wanted on whatever page we wanted. 
-This was the simplest solution, but has since been disabled. 
+This was the simplest single-file solution, but has since been disabled.
 
 It is still possible to use Google Chrome DevTools to modify a file and add custom CSS to the target pages. 
 This solution is relatively complex, and will be described in detail in a separate, future article.
 
 ### 2. Modifying web-apps with Browser Extension allowing us to add user-styles and user-scripts
+
 #### The Case of Netflix Games
 
-Hiding the game-related content on netflix can be achieved by adding the following CSS code to the app.
+Let's use it as an example for how a user can fight back against products pushing on them things they'd rather not see. 
+
+Hiding the abovementioned game-related content on netflix can be achieved by adding the following CSS code to the app.
 Results in both `cloud` and `mobile` game-related horizontal rows, as well as the big main banner at the top, when it's about games, are hidden by it. 
 
 [The code is available here](https://gist.github.com/sEver/ca98ad4a1b0fffe5f88802736f7f5797)
@@ -84,7 +87,7 @@ div[data-list-context="popularTitles"].lolomoRow
 
 ```
 
-Now, to add this code to the web-app, we need a Browser Extension to add custom styles to the page, also known as `user-style`s.
+Now, to add this code to the web-app, we need a Browser Extension to add custom styles to the page. These custom styles are also known as `User Styles`.
 
 #### What are User Styles? 
 
@@ -104,37 +107,49 @@ See some reference sources below:
 > In order to **ensure that users can control styles**, CSS2 changes the semantics of the "!important" operator defined in CSS1. In CSS1, authors always had final say over styles. In CSS2, if a **user's style sheet** contains "!important", it **takes precedence** over any applicable rule in an author's style sheet. This is an important feature to users who require or must avoid certain color combinations or contrasts, users who require large fonts, etc. -- https://www.w3.org/1999/06/NOTE-CSS-access-19990616 // emphasis by the author
 
 
-#### Google Chrome Browser Extensions for user styles
+#### Popular Browser Extensions for user styles
 
 This part needs a little history, as it seems people who embrace the core idea of the Web - that the user should have easy access to changing how the Web looks for them, are facing various difficulties on this path. 
 
 ##### Stylish and UserStyles.org - The first major `User Style Sheet` project, which after being sold, started stealing user data
 
-While searching the web for "User Styles" You will most likely find: 
+While searching the web for "User Styles" You will most likely find in the top results: 
 - `UserStyles.org` - a platform for publishing and sharing user styles.
 - Browser Extension `Stylish` that has been downloaded by over 2'000'000 users. 
 
-This was the User Style heaven for everyone, up until around 2016. The project was developed on GitHub (https://github.com/stylish-userstyles/stylish-chrome) and all was good. Then it ended.
+This pair was the User Style heaven for everyone, up until around 2016. 
+An extension to apply custom styles to any web page, and a dedicated web portal used to share such custom styles with the entire world, with a searchable database of ready-to-use User Styles. 
+A dream come true for the idea of user-customized web. The project was developed on GitHub (https://github.com/stylish-userstyles/stylish-chrome) and all was good. For a time.
 
-Original creator of `Stylish` and `UserStyles.org` sold the project, and the new owner sold it again in 2017 to a web analytics company called Similar Web. Stylish extension was then used to literally steal all the browsing history of it's users. Every URL the user have opened, including all the keys in the URLs, together with their unique ID, and their IP address were in their entirety sent to their server. SimilarWeb knew everything about each of the `Stylish` users web activity, and never even asked the users for permission to collect it. 
+Then it ended.
+
+##### The Downfall of `Stylish` and `UserStyles.org`
+
+In 2016, original creator of `Stylish` and `UserStyles.org` sold the project, and the new owner sold it again in 2017 to a web analytics company called Similar Web (or got employed by it, which is unclear). Stylish extension was then used to literally steal all the browsing history of it's over 2 million users. Every URL a user have opened, including all the keys in the URLs, all the custom "reset password" links, all the "only person with the link can access" links, everything together with their unique ID, and their IP address was in its entirety sent to the company server. SimilarWeb knew collected everything about each and every of the `Stylish` users web activity, without ever asking the users for permission to collect it. 
 In a forum post, they just wrote "Stylish users will be joining SimilarWeb’s market research panel". 
 
 See this article for some details: https://robertheaton.com/2018/07/02/stylish-browser-extension-steals-your-internet-history/
 
-In 2018, `Stylish` was removed from ChromeWebStore and the Firefox Addon Portal, and uninstalled from all user's browsers for stealing user data. 
-After that, they got back, but this time they ask you for permission. 
+In response to the news about stealing user data, in July of 2018, 
+`Stylish` extension was promptly removed from ChromeWebStore and the Firefox Addon Portal, and remotely uninstalled from all user's browsers. 
 
-They push for that permission quite hard (there are literally 11 colorful buttons to agree, in different languages), and also want you to create an account on userstyles.org. 
+After about a month, they returned, again with a scheme to collect all the browsing data from their users, but this time they asked for permission. .
+
+They ask for that permission quite hard as well, in a manipulative, coercive, misleading way. There are literally 11 colorful buttons to agree, in different languages. 
+They also want you to create an account on userstyles.org, supposedly to better serve you the User Styles. 
+
 As they say in the extension: "We’re BEST at showing you styles for sites WHEN you visit them meaning we need access to that information. Meaning we're gonna need your agreement". 
-From a Web Analytic company that sells data about people browsing habits, and used to steal that data, does that sound like a true statement? 
-Lying about this breaches multiple laws and regulations regarding privacy. 
+From a Web Analytic company that sells data about people browsing habits, and used to steal that data, that does not sound like a true statement. 
+See how they make money: https://www.similarweb.com/corp/ourdata/
+The user trust was already broken. Lying about this breaches multiple laws and regulations regarding privacy. They say one thing in the extension, but there something entirely different in the Privacy Policy on userstyles.org. It's a mess. 
 
-Although `userstyles.org` portal itself contains a lot of styles and is not as much of a threat, besides being a bit buggy, the permission-hungry, spywary `Stylish` extension is to be avoided, if you care about your privacy at all. 
+Although `userstyles.org` portal itself contains a lot of styles and is not as much of a threat, besides being a bit buggy, 
+the permission-hungry, spywary `Stylish` extension is best avoided, if you care about your privacy at all. 
 
 
 
-In the context of the war for our attention, `Stylish` was one of the most popular tools that has been putting some control in the hands of the users. 
-It was allowing them to alter the webpages, removing ads, feeds, and other annoyances with ease, for 11 years of the internet history, from 2005 up to 2016. 
+In the greater context of the war for our attention, `Stylish` extension was one of the most popular tools that has been putting some control in the hands of the users. 
+It was allowing them to alter the webpages, remove ads, feeds, and other annoyances with ease, for 11 years of the internet history, from 2005 up to 2016. 
 
 It is quite ironic that such a tool was bought and destroyed by a company providing data for the advertisement industry. 
 An industry which would very much like to see us without control over what we see on the web. 
@@ -145,10 +160,13 @@ They have won that particular battle, but they haven't won the war.
 
 There are alternatives for both the extension and the User Styles sharing portal. See below.
 
-##### `Stylus` - a free and open source, community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
+##### `Stylus` - a free and open source community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
+
+This extension was a community response to the whole `Stylish` data stealing crisis. Redone with the single purpose - to continue providing the great usability that the original tool provided, but obviously without the whole spyware layer. 
 
 >  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
 
+The extension is available for both Chromium based browsers and Firefox, and with 800k users in total, 
 [Stylus page on ChromeWebStore](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) for Chromium based browsers (Chrome, Edge, Opera)
 [Stylus page on Mozzilla Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) for Firefox
 
@@ -156,10 +174,13 @@ There is also https://UserStyles.world portal, which enables publishing and down
 
 Since the entire value of UserStyles.org consists of User Styles added there by the users, to prevent the company owning it from deleting the User Styles history contained therein, all User Styles are mirrored onto https://uso.kkx.one/browse/styles and many authors import their User Styles from there into https://UserStyles.world
 
+The crisis was averted, and users of The Web can again customize their web experience with ease and share the customizations. 
+
 ##### Using `Stylus` and `UserStyles.world` to remove annoyances from your web apps
 
-To hide game-related content on Netflix, we need to:
+Let's hide the game-related content on Netflix, as an example.
 
+We need to:
 0. Install the `Stylus` extension into our browser ([from here](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
 1. Install https://userstyles.world/style/22338/no-games-on-netflix
 2. That's it! Now your Netflix doesn't show games.
