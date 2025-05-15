@@ -69,6 +69,7 @@ Results in both `cloud` and `mobile` game-related horizontal rows, as well as th
 And also pasted below:
 
 ```CSS
+
 .billboard-row-games,
 div[data-list-context="configbased_cloudpersonalizedgames"],
 div[data-list-context="configbased_mobilepersonalizedgames"] 
@@ -76,9 +77,11 @@ div[data-list-context="configbased_mobilepersonalizedgames"]
   display: none;
 }
 
-div[data-list-context="popularTitles"].lolomoRow {
-	margin-top: 5vw;
+div[data-list-context="popularTitles"].lolomoRow 
+{
+  margin-top: 5vw;
 }
+
 ```
 
 Now, to add this code to the web-app, we need a Browser Extension to add custom styles to the page, also known as `user-style`s.
@@ -142,16 +145,62 @@ They have won that particular battle, but they haven't won the war.
 
 There are alternatives for both the extension and the User Styles sharing portal. See below.
 
-##### `Stylus` and `UserStyles.world` - a free and open source, community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
+##### `Stylus` - a free and open source, community-managed fork of the `Stylish` extension, started from code before `Stylish` itself turned into spyware 
 
 >  If you want to change the way that the internet looks, just use Stylus. It is functionally identical to Stylish, apart from the facts that it has never contained any spyware, and is not owned by a company that makes its money by selling your data. -- https://robertheaton.com/2018/08/16/stylish-is-back-and-you-still-shouldnt-use-it/
 
+[Stylus page on ChromeWebStore](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) for Chromium based browsers (Chrome, Edge, Opera)
+[Stylus page on Mozzilla Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) for Firefox
+
+There is also https://UserStyles.world portal, which enables publishing and downloading User Styles and is in no way connected to UserStyles.org
+
+Since the entire value of UserStyles.org consists of User Styles added there by the users, to prevent the company owning it from deleting the User Styles history contained therein, all User Styles are mirrored onto https://uso.kkx.one/browse/styles and many authors import their User Styles from there into https://UserStyles.world
+
+##### Using `Stylus` and `UserStyles.world` to remove annoyances from your web apps
+
+To hide game-related content on Netflix, we need to:
+
+0. Install the `Stylus` extension into our browser ([from here](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
+1. Install https://userstyles.world/style/22338/no-games-on-netflix
+2. That's it! Now your Netflix doesn't show games.
+
+**OR**
+
+Manual process:
+0. Install `Stylus` extension as above
+1. Pin the extension to the toolbar (click the puzzle icon in top-right corner, find Stylus, and click the "Pin" icon)
+3. Open https://netflix.com
+4. Click the Stylus icon on the browser's toolbar
+5. In the "Write new style for" section, uncheck "User CSS" blue checkbox
+6. Click the "netflix.com" part of the url in this section
+7. An editor window will open. Paste the code provided below into the big section on the right side of Stylus window
+8. In the top-left corner enter a name for your User Style (Something like "Hiding Netlix Games")
+9. Press Ctrl+S to save
+10. And thats it. You've got a local User Style applied to your netflix.com. Now your Netflix doesn't show games.
+
+```CSS
+
+.billboard-row-games,
+div[data-list-context="configbased_cloudpersonalizedgames"],
+div[data-list-context="configbased_mobilepersonalizedgames"] 
+{
+  display: none;
+}
+
+div[data-list-context="popularTitles"].lolomoRow 
+{
+  margin-top: 5vw;
+}
+
+```
 
 ### 3. Dedicated browser extensions that specifically target annoyances we want to remove
 
 Ad blockers such as UBlock Origin allow user-definable filters that can modify site's CSS.
 
-- https://ublockorigin.com/ - the most powerful one
+- https://ublockorigin.com/ - the most powerful one, recently hurt by Google, together with many other ad-blocking tools, by "Manifest V3" set of changes to Extension system in Chromium. Google also disabled it on their ChromeWebStore.
+- See also: https://cssi.us/manually-install-ublock-origin-in-chrome/
+
 
 
 
