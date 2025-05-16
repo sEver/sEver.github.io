@@ -1,3 +1,5 @@
+Just some random notes on the AI discourse.
+
 1. AI 'art' is theft.
 2. All AI models are literally trained on copyrighted work, without permission or compensation to the original authors, and most earn money from it.
 3. No, the fact that a lot of people are excited about the results doesn't suddenly void the copyright law in it's entirety.
