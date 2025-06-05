@@ -32,6 +32,7 @@ Moving on
 ## https://preview.webflow.com/preview/flexbox-game
 This is very similar to FlexboxFroggy, but instead of coding, you do everything within the WebFlow editor
 - Issue: There seems to be no in-system checking whether you've completed the given puzzle properly.
+There is more at https://university.webflow.com/interactive-learning
 
 ## http://www.flexboxdefense.com
 + A tower defense game where you position the towers with CSS. 
@@ -65,7 +66,22 @@ Not the best UI, but it works allright
 ## https://100dayscss.com/days/1/
 100 CSS challenges for 100 days
 
+## https://www.codehelp.in/dashboard/fruitbox-flex
 
+
+## https://rupl.github.io/unfold
+This is actually not a game, but a fun presentation nonetheless
+There are nice links at the end, especially:
+- https://acko.net/about/
+- https://acko.net/blog/react-the-missing-parts/
+- https://tridiv.com/
+- https://animejs.com/
+
+This is a good corner of the internet
+
+## CSS driven games (no JS at all)
+https://codepen.io/una/pen/NxZaNr
+https://codepen.io/alvaromontoro/pen/BexWOw
 
 
 
