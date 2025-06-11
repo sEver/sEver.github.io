@@ -4,3 +4,6 @@
 
 #### Removal of the references to `@Input()` decorator without the matching description changes
 - PR https://github.com/angular/angular/pull/61686
+
+#### Removal of the `  standalone: true,` line of code, made a lot of code snippets be mis-targetted by 1 line in adev tutorials
+- PR https://github.com/angular/angular/pull/58660
