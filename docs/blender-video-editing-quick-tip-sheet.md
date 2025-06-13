@@ -10,6 +10,7 @@
 1. `PgUp` to go to end of the strip, `Ctrl+End` to set the end of render range
 1. OR in Video Sequencer window go: `View -> Range -> Set Frame Range to Strips`
 1. Rightclick video strip -> `Movie Strip -> Set Render Size` (sets output size to input size)
+1. `Home` to zoom out to see entire strip within the window
 
 ## Editing
 1. Play/Pause the video with `Space`
