@@ -71,11 +71,18 @@ Not the best UI, but it works allright
 
 ## https://rupl.github.io/unfold
 This is actually not a game, but a fun presentation nonetheless
-There are nice links at the end, especially:
+There are nice links at the end, leading to, among others: 
+- https://chrisruppel.com/ - Balcony projects are great
 - https://acko.net/about/
 - https://acko.net/blog/react-the-missing-parts/
 - https://tridiv.com/
 - https://animejs.com/
+- https://www.keithclark.co.uk/ - a lot of fun web labs
+  - https://www.keithclark.co.uk/articles/zzfxm/
+  - https://keithclark.github.io/ZzFXM/tracker/?url=https://raw.githubusercontent.com/keithclark/ZzFXM/master/examples/songs/sanxion.js - omg, what a cute synth!
+- https://metafizzy.co/ - some nice plugins
+- https://paulrhayes.com/keeping-a-design-history/ - good read
+- 
 
 This is a good corner of the internet
 
