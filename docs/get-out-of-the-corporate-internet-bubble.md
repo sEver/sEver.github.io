@@ -3,6 +3,7 @@
 Over the years, but especially during the pandemic, and mostly for the young people, 
 the perception of The Internet gradually shrinked to a handful of apps controlled by a handful of companies.
 
+These are:
 - TikTok
 - Meta
   - Instagram
@@ -21,7 +22,7 @@ the perception of The Internet gradually shrinked to a handful of apps controlle
 
 The addictive nature of the apps providing an infinite scrollable feed of short form media 
 took away the attention capacity of users, often rendering them unable to use any other, 
-less stimulating forms information sharing.
+less stimulating forms of information sharing.
 
 As a result, these apps became the only source of information the users are able to consume, 
 and therefore, these apps began to control what a vast number of internet users see and know about the world around them.
