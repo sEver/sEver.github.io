@@ -28,9 +28,9 @@ As a result, these apps became the only source of information the users are able
 and therefore, these apps began to control what a vast number of internet users see and know about the world around them.
 
 Through this the companies controlling TikTok, Meta, Google and Twitter can influence worldviews of the massess, 
-promote certain sentiments, and affect elections.
+promote certain sentiments, and for example affect elections.
 
-That's one thing. THe other thing is - they can significantly influence the mental health and wellbeing of their users. 
+That's one thing. The other thing is - they can significantly influence the mental health and wellbeing of their users. 
 
 If you open Twitter, or any Meta app, You will see in your feed, through "promoted" or "suggested" a certain kind of content 
 that "The Algorithm" wants you to see. 
