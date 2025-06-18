@@ -45,8 +45,10 @@ making the publisher a buck or two through advertising.
 
 So it's not an accident that we named the process of being stuck in a loop of short-form media fed by these apps the "Doomscrolling". 
 
-The vast majority of promoted content is the content that sat so well with the thousands before us. 
-War. Crime. Fear. It also makes us miserable. 
+The vast majority of this promoted content is what sat so well with the thousands before us. 
+War. Crime. Fear. 
+
+It also makes us miserable. 
 
 Why is the algorithm like that? Because that's how it makes more money. 
 At the cost of your mental health. 
