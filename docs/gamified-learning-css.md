@@ -1,8 +1,16 @@
 We're taking a look at a set of web games aimed at helping one to learn some CSS rules. 
 
 ## Codepip.com
-1. https://flexboxfroggy.com - created by codepip.com, a light-hearted set of task helping a cute frog to get where it needs to be with some CSS Flexbox rules. You enter the right rules, the system detects it and lets you pass to the next level.
-It starts with the very basics and gradually introduces more concepts. All 24 levels are doable within 30 minutes, even if you get lost at the last one ;), and the entire thing can be considered as a minimalistic Flexbos tutorial. Well done.
+1. https://flexboxfroggy.com - a light-hearted set of task helping cute frogs to get where they need to be with some CSS Flexbox rules. 
+It starts with the very basics and gradually introduces more concepts. 
+
+- You're given a short text description of the flexbox rules that could be useful
+- You're asked to enter the rule that will position the frogs properly
+- The entered CSS is auto-applied upon every change, once you enter the proper rule, it's auto-detected and you get an audio cue, and the "next" button, leading to the next task is ungreyed and moves a bit. This is a subtle and rational way of executing that user interaction, and it seems that is not so obvious, looking at some of the other examples of the gamified learning concept.
+
+All 24 levels are doable within 30 minutes, even if you get lost at the last one ;), and the entire thing can be considered as a minimalistic Flexbox tutorial. Well done.
+
+
 
 2. https://codepip.com/games/grid-garden/ - from the same creator. Once you create a free account, you'll get access to 4 free CSS games, althou codepip.com has many more for other languages as well. Grid garden itself is a perfect CSS Grid tutorial.
 
@@ -16,7 +24,7 @@ This one even makes money for the creator!
 Reminds me of Styled Components.
 
 ## https://codingfantasy.com/
-1. https://codingfantasy.com/games/flexboxadventure/play - looks like someone caught the idea of a "CSS game", and has run with it, but added full-blown example-supported course on flexbox as well, together with unfortunate attempts at humour, and "gamifying" the experience in the classical sense (as in - you aim to restrore the knight's HP after he has some fight with bitcoins(?!). What seems to most loudly state that this is a try-hard attempt at gamifying is that whenever your answer is corect, you'll get an exploding fountain of confetti, trying to trigger your "uh-oh, I gained a level" reward related neuron circuits and showing a popup, that you completed the level. THis is quite mobile-app-style-trying-to-get-you-hooked maneuver and we do not like that stuff. 
+1. https://codingfantasy.com/games/flexboxadventure/play - looks like someone caught the idea of a "CSS game", and has run with it, but added full-blown example-supported course on flexbox as well, together with unfortunate attempts at humour, and "gamifying" the experience in the classical sense (as in - you aim to restore the knight's HP after he has some fight with bitcoins(?!). What seems to most loudly state that this is a try-hard attempt at gamifying is that whenever your answer is corect, you'll get an exploding fountain of confetti, trying to trigger your "uh-oh, I gained a level" reward related neuron circuits and showing a popup, that you completed the level. This is quite mobile-app-style-trying-to-get-you-hooked maneuver and we do not like that stuff. 
 
 In Codepip games in comparison, your level gaining is shown much more subtly. The "next button" gets unblocked, coloured, and moves a little. That's it. 
 
@@ -37,8 +45,9 @@ There is more at https://university.webflow.com/interactive-learning
 ## http://www.flexboxdefense.com
 + A tower defense game where you position the towers with CSS. 
 - Bad gun tower sounds. 
-- Issue: The positions of the towers are updated upon leaving the edit field. 
-- Issue: every popup alert has a link "Support this project". 
+- Issue: The positions of the towers are updated upon leaving the edit field, not upon change. 
+- Issue: every popup alert has a link "Support this project".
+- The popup tries to convince you this is "gaming" by telling you you've gained "100 points"
 - Not really that engaging
 
 ## https://courses.cs.washington.edu/courses/cse154/flexboxducky/
