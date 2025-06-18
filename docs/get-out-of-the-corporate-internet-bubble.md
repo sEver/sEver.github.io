@@ -69,4 +69,10 @@ Drop anything that has "An Algorithm" that does not serve you, but its masters.
 - Use decentralized communicators that are not controlled by a single company
   - https://matrix.org/
 - For coders - use code sharing platforms that do not belong to Microsoft (Github does)
-  - https://codeberg.org/  
+  - https://codeberg.org/
+ 
+## Extra links
+- https://www.navidrome.org/ - self hosting music streaming
+- https://www.plex.tv/ - centralizing/proxying streaming services (does that drop the "suggested" feeds in the process?)
+- https://disroot.org/en/about - NL initiative promoting alternatives to "walled gardens"
+- https://federated.nexus/ - CA initiative hosting Matrix and Forgejo
