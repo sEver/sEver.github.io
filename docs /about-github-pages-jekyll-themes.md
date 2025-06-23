@@ -21,6 +21,7 @@ There are a few ways. We can either:
   - Driven by a repo https://github.com/sEver/chirpy-starter
 
 Only the option 1 above gives us relatively clean repo structure with JUST our content. That is not very good.
+
 // TODO: Check if there are differences between adding remote theme via repo url or a Gem?
 
 
