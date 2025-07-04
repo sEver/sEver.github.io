@@ -7,3 +7,8 @@
 
 #### Removal of the `  standalone: true,` line of code, made a lot of code snippets be mis-targetted by 1 line in adev tutorials
 - PR https://github.com/angular/angular/pull/58660
+
+We've resolved most if not all of the last one with 
+- https://github.com/angular/angular/pull/61909
+- https://github.com/angular/angular/pull/62451 (for v19, unmerged, as no further changes are accepted into v19 branch)
+- https://github.com/angular/angular/pull/62457
