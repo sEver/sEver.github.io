@@ -1,0 +1,5 @@
+- https://www.msys2.org/ 
+- https://www.qemu.org/
+- https://github.com/ethereumbook/ethereumbook
+- https://www.reddit.com/r/Eve/comments/1fh3n1l/eli5_eve_frontier/
+- https://frontier.scetrov.live/
