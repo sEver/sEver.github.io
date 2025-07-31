@@ -10,3 +10,4 @@
 - https://github.com/Jiayi-Pan/TinyZero - Project training AI for simple math tasks for $30
 - http://bielik.ai - Polish LLM
 - https://grok.com - From Elon Musk team
+- https://phind.com - Search engine
