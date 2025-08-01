@@ -13,6 +13,5 @@
 - https://github.com/microsoft/beginners-series-blockchain
 - https://learn.microsoft.com/en-us/shows/beginners-series-to-blockchain/
 - https://www.blockchain-council.org/ethereum/solidity-for-beginners-a-guide-to-getting-started/
-- 
 
 
