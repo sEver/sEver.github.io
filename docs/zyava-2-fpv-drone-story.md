@@ -73,11 +73,18 @@
         - set the "Throttle hover" to `1440`
         - set the "Minimum distance to home (meters)" to `10`
         - Saved the changes
+
     ##### Flight 3         
     - Disconnected the App
     - Connected the battery
     - Flew away from the starting point to a distance of around 17 meters
     - Initiated the manual Failsafe and GPS rescue
     - The drone climbed a bit and then circled around regardless of the wind and then landed properly near the starting point
+        - This confirmed the GPS rescue worked properly
+
+    At this point we determined it is safe to untie the drone from the tether. It was done.
+    Further flights were executed in angle mode to first confirm proper operation at various ranges.
+    The horizon and acro mode were also tested. 
+      
 
      
