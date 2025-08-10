@@ -3,7 +3,7 @@
 // Document is a work in progress //
 
 ### Dictionary
-- FC - Flight Controller - the circuit board 
+- FC - Flight Controller - the circuit board holding the flight-control computer
 
 1. Parts list
 2. Build process
