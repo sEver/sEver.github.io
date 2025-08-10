@@ -66,5 +66,18 @@
     - Determined that the "Delay for turning off the Motors during Failsafe [seconds]" is apparently determining how long the landing attempt will be ran before just disarming.
       This value needs to be set to give the drone sufficient time to land with the given throttle value from the essentially unknown altitude.
       That was determined to be a not so good Failsafe option.
-    - In "Failsafe" tab changed 
+    - In "Failsafe" tab
+        - changed the "Stage 2 - Failsafe Procedure" to `GPS Rescue`
+        - set the "Altitude mode" to `Current altitude`
+        - set the "Initial climb (meters)" to `2`
+        - set the "Throttle hover" to `1440`
+        - set the "Minimum distance to home (meters)" to `10`
+        - Saved the changes
+    ##### Flight 3         
+    - Disconnected the App
+    - Connected the battery
+    - Flew away from the starting point to a distance of around 17 meters
+    - Initiated the manual Failsafe and GPS rescue
+    - The drone climbed a bit and then circled around regardless of the wind and then landed properly near the starting point
+
      
