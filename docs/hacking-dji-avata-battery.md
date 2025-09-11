@@ -1,0 +1,5 @@
+- We determined that DJI Avata Smart Battery connection is basically an XT30
+- We made an XT30 to XT60 Cable, to connect the DJI Avata Smart Battery to an FPV drone
+- Seems the battery turns off within a second after connecting
+- We're looking into the issue further
+  - Found https://hackaday.io/project/189188-dji-avata-smart-smart-charger
