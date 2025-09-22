@@ -1,0 +1,6 @@
+- 2" Ram pump - https://www.youtube.com/watch?v=_tzg1_Uy_ro
+- Valve efficiency comparison - https://www.youtube.com/watch?v=TALvy0usnYM
+- Custom waste valve concept - https://www.youtube.com/watch?v=1bB3o_EZRr8
+- Research papers - https://www.researchgate.net/figure/Different-valves-tested-as-impulse-valve-in-the-construction-of-a-hydraulic-ram_fig4_282363314
+- LowTechLab - https://wiki.lowtechlab.org/wiki/B%C3%A9lier_hydraulique/en
+- 
