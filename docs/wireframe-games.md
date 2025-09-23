@@ -1,0 +1,3 @@
+- https://en.wikipedia.org/wiki/NetWars
+- https://playclassic.games/games/action-dos-games-online/play-netwars-online/play/
+- http://www.mininova.de/main_e.html
