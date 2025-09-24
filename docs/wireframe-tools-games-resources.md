@@ -14,4 +14,3 @@
 - https://paulbourke.net/dataformats/obj/
 - https://en.wikipedia.org/wiki/PLY_(file_format)
 - https://www.khronos.org/gltf/
-- 
