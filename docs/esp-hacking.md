@@ -1,0 +1,6 @@
+- one way to reset the board back to factory software https://www.instructables.com/How-to-Upload-New-Firmware-to-ESP8266-ESP-01S-ESP-/
+- basic AT commands: https://docs.espressif.com/projects/esp-at/en/release-v2.2.0.0_esp8266/AT_Command_Set/Basic_AT_Commands.html
+- Firmware downloads https://w.electrodragon.com/w/Category:ESP8266_SDK
+- Custom builds https://nodemcu-build.com/
+- https://www.instructables.com/The-Simple-Guide-to-Flashing-Your-ESP8266-Firmware/
+- 
