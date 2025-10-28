@@ -1,6 +1,13 @@
 # `Hummingbird F4 V4` Tinywhoop drone comes with some 'funny' messages in its OSD and we will show you how to get rid of them
 
-## The drone runs Betaflight 4.5.1, but it's not built from the official repo, but from NewBeeDrone's fork of Betaflight
+### *To get rid of them, you need to:
+- Backup your Betaflight settings
+- Reflash your firmware with our CLEANED version made available here: [Betaflight-for-Hummingbird-F4-V4-with-OSD-messages-CLEANED](https://github.com/sEver/Betaflight-for-Hummingbird-F4-V4-with-OSD-messages-CLEANED)
+- Restore your backup-up Betaflight settings
+
+## Below is the story how we've done the cleanup.
+
+### The drone runs Betaflight 4.5.1, but it's not built from the official repo, but from NewBeeDrone's fork of Betaflight
 
 The v4.5.1 release of this fork can be found here: https://github.com/newbeedrone/nbd-betaflight/releases/tag/v4.5.1
 
@@ -10,7 +17,7 @@ The owner of NewBeeDrone, Kelvin, [stated](https://www.youtube.com/watch?v=sUkdt
 With the custom firmware, NewBeeDrone is therefore able to add any and all Betaflight changes they needed to add to the drone. 
 
 It seems that among these changes added to the NewBeeDrone firmware binary, are also these OSD messages:
-
+```
 "SEND IT"
 "BLAH BLAH BLAH"
 "OH SHIT RSSI LOW" 
@@ -18,7 +25,7 @@ It seems that among these changes added to the NewBeeDrone firmware binary, are 
 "DAMN HOT %c"
 "DAYUMN"
 "> SHAME BRO <"
-
+```
 Which are replacements for the messages originally stored in here, among others:  
 https://github.com/newbeedrone/nbd-betaflight/blob/v4.5.1/src/main/osd/osd_warnings.c
 
@@ -62,7 +69,7 @@ To confirm the scripts work as intended, we've converted the original firmware t
 Because we're not going to mess with any pointers referencing the addressess of these strings in firmware memory space, we're going to edit the messages without changing their length.
 
 And so we changed
-
+```
 `SEND IT` to
 ` READY `
 
@@ -80,7 +87,7 @@ And so we changed
 
 `> SHAME BRO <` to 
 `> TURN OVER <`
-
+```
 
 Sadly, we weren't able to determine what was the original message for the 
 "BLAH BLAH BLAH" replacement in NewBeeDrone's version of betaflight, so this one message was omitted in our cleanup.
