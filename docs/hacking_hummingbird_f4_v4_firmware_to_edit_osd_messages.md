@@ -96,7 +96,7 @@ After editing the messages, the payload was re-encoded into an Intel HEX file ag
 
 The drone was connected via USB to a PC Computer, a backup of the settings was made, and the `betaflight_4.5.1_HUMMINGBIRD_F4_V4_CLEANED.hex` firmware was flashed onto the drone. After the flash, the backup of the settings was restored and drone was flown for 2 packets, to confirm all the messages look like intended. 
 
-The resulting firmware file is available for download here: [betaflight_4.5.1_HUMMINGBIRD_F4_V4_CLEANED.hex](https://github.com/sEver/Betaflight-4.5.1-for-Hummingbird-F4-V4-with-OSD-messages-CLEANED/releases/download/v4.5.1-CLEANED/betaflight_4.5.1_HUMMINGBIRD_F4_V4_CLEANED.hex)
+The resulting firmware file is available for download here: [betaflight_4.5.1_HUMMINGBIRD_F4_V4_CLEANED-A.hex](https://github.com/sEver/Betaflight-for-Hummingbird-F4-V4-with-OSD-messages-CLEANED/releases/download/v4.5.1-CLEANED-A/betaflight_4.5.1_HUMMINGBIRD_F4_V4_CLEANED-A.hex)
 
 And the tools used in the process are also available in this repo: 
 https://github.com/sEver/Betaflight-for-Hummingbird-F4-V4-with-OSD-messages-CLEANED
