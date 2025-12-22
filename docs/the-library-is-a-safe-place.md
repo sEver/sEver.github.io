@@ -1,3 +1,3 @@
-- https://www.reddit.com/r/MadeMeSmile/comments/10450zb/because_library_is_a_safe_place/
-- https://www.imdb.com/title/tt3294746/
-- https://wilwheaton.net/2023/03/the-library-is-a-safe-place/
+- [Library is a Safe Place](https://www.reddit.com/r/MadeMeSmile/comments/10450zb/because_library_is_a_safe_place/)
+- [The Public - Movie](https://www.imdb.com/title/tt3294746/)
+- [Will Wheaton's Article](https://wilwheaton.net/2023/03/the-library-is-a-safe-place/)
