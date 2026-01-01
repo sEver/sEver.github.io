@@ -1,0 +1,6 @@
+- https://eyes.nasa.gov/apps/solar-system/#/sc_juno/events/joi_burn?rate=0&time=2016-07-05T03:04:59.999+00:00
+- https://science.nasa.gov/learn/basics-of-space-flight/
+- https://observablehq.com/@christophe-yamahata/planet-orbits-tychonic-vs-heliocentric-system
+- https://en.wikipedia.org/wiki/Geocentrism#Ptolemaic_model
+- https://en.wikipedia.org/wiki/Copernican_heliocentrism
+- https://en.wikipedia.org/wiki/Solar_cycle
