@@ -4,3 +4,4 @@
 - https://en.wikipedia.org/wiki/Geocentrism#Ptolemaic_model
 - https://en.wikipedia.org/wiki/Copernican_heliocentrism
 - https://en.wikipedia.org/wiki/Solar_cycle
+- https://en.wikipedia.org/wiki/Space_weather
