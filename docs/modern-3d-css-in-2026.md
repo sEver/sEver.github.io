@@ -1,0 +1,14 @@
+### Crazy creations people made in CSS alone or modern Web3d tech (WebGL/WebGPU)
+- https://codepen.io/amit_sheen/
+  - https://codepen.io/amit_sheen/pen/vEKBjYO
+- https://codepen.io/shubniggurath/
+  - https://codepen.io/shubniggurath/pen/KwPwWZL
+- https://codepen.io/soju22
+  - https://codepen.io/soju22/pen/pvyaomb
+  - https://codepen.io/soju22/pen/rNREwzr
+  - https://codepen.io/soju22/pen/JjEqebK
+  - https://codepen.io/soju22/pen/vYyaJNX
+  - https://www.framer.com/@kevin-levron/ - Selling pens essentially?
+- https://codepen.io/Lynksen/pen/emZxrry
+- https://codepen.io/DenDionigi/pen/KKOaKRm
+- https://codepen.io/martinlaxenaire/pen/PwooQRK
