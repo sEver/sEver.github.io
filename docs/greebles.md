@@ -1,0 +1,21 @@
+- https://en.wikipedia.org/wiki/Greeble
+- https://en.wikipedia.org/w/index.php?title=Greeble&oldid=424080399
+- https://en.wikipedia.org/w/index.php?title=Greeble&diff=prev&oldid=610250582
+- https://scifiinterfaces.com/2014/06/04/fuidgets/
+- https://cdm.link/greebles-nurnies-wiggets-and-eyeball-kicks-roughing-up-digital-realities/
+- https://www.clarityengine.com/samples.htm
+- https://gamedev.stackexchange.com/questions/153023/how-can-i-make-a-beveled-edge-with-bump-mapping
+- https://en.wikipedia.org/wiki/Horror_vacui_(art)
+- https://cdm.link/hawken-upcoming-indie-mech-game-stuns-eyeballs-learns-lessons-from-model-kit-building-and-kitbash/
+- https://99percentinvisible.org/article/interstellar-illusions-greebles-lend-large-sci-fi-structures-a-sense-of-scale/
+- https://www.youtube.com/watch?v=ZfvtGrhYk0I&t=1196s
+- https://web.archive.org/web/20090909215543/http://future-past.com/interview/charlesadams.php
+- https://web.archive.org/web/20060214091217/http://battletech-movie.com/html/tutorials/comments_about_greebling.php
+- https://www.starshipmodeler.com/
+- 
+
+### The story of a wiki page
+- https://en.wikipedia.org/wiki/Greeble
+- https://en.wikipedia.org/w/index.php?title=Greeble&oldid=424080399
+- https://en.wikipedia.org/w/index.php?title=Greeble&diff=prev&oldid=610250582
+- https://en.wikipedia.org/w/index.php?title=Greeble&diff=prev&oldid=910855384
