@@ -1,2 +1,2 @@
-https://steambrew.app/themes
-https://github.com/SteamClientHomebrew/Millennium
+- https://steambrew.app/themes
+- https://github.com/SteamClientHomebrew/Millennium
