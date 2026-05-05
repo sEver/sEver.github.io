@@ -24,5 +24,20 @@ Only the option 1 above gives us relatively clean repo structure with JUST our c
 
 // TODO: Check if there are differences between adding remote theme via repo url or a Gem?
 
+Suported default github pages themes, available for use with option 1 above:
+- https://pages-themes.github.io/architect/
+- https://pages-themes.github.io/cayman/
+- https://pages-themes.github.io/dinky/
+- https://pages-themes.github.io/hacker/ (first with the dark theme)
+- https://pages-themes.github.io/leap-day/
+- https://pages-themes.github.io/merlot/
+- https://pages-themes.github.io/midnight/ (dark)
+- https://jekyll.github.io/minima/ (has dark skin)
+- https://pages-themes.github.io/minimal/
+- https://pages-themes.github.io/modernist/
+- https://pages-themes.github.io/slate/
+- https://pages-themes.github.io/tactile/
+- https://pages-themes.github.io/time-machine/
 
+To be honest, most of them look dated.
 
