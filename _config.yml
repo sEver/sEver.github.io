@@ -1,7 +1,7 @@
 title: sEverely n0ted
 description: A scratchpad
 remote_theme: just-the-docs/just-the-docs
-
+color_scheme: dark
 # This ensures the search function works correctly
 url: "https://sEver.github.io"
 baseurl: "/" 
