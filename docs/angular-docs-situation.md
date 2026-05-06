@@ -14,4 +14,4 @@ as of the time of creating this file, June 6 2025.
 #### We've resolved most if not all of the last one (at least within `learn-angular` and `first-app` parts) with:
 - https://github.com/angular/angular/pull/61909 (merged)
 - https://github.com/angular/angular/pull/62451 (for v19, unmerged, as no further changes are accepted into v19 branch)
-- https://github.com/angular/angular/pull/62457 (awaiting)
+- https://github.com/angular/angular/pull/62457 (merged)
