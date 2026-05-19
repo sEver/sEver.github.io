@@ -1,0 +1,4 @@
+- https://www.instagram.com/p/DV0zPcUj-FG/
+- https://geowind.kr/
+- https://ifdesign.com/en/winner-ranking/project/geowind-gw1200-geodesic-vertical-axis-wind-turbine/765799
+- https://www.ces.tech/ces-innovation-awards/2026/grassroots-climate-grid-ai-powered-wind-climate-infrastructure-by-geowind/
