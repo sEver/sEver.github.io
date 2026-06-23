@@ -11,3 +11,4 @@
 - http://bielik.ai - Polish LLM
 - https://grok.com - From Elon Musk team
 - https://phind.com - Search engine
+- https://sakana.ai/fugu/ - Japanese Multi-Agent
