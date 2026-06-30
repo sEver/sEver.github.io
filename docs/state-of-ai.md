@@ -3,7 +3,7 @@
 
 - http://chat.openai.com - ChatGPT, the original noise maker in the field
 - http://gemini.google.com - Made by Google, can listen to voice, but suboptimal, can be installed on android device for smooth voice-chat
-- https://aistudio.google.com/live - you can voice-chat with this one
+- https://aistudio.google.com/live - you can voice-chat with this one in a browser
 - https://chat.deepseek.com - Chinese LLM trained for the fraction of the cost of ChatGPT (using ChatGPT as data source)
 - https://chat.qwenlm.ai - Chinese LLM made by Alibaba Cloud, even more performant than DeepSeek
   - https://qwenlm.github.io/blog/qwen3/ - and their blog
