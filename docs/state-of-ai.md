@@ -12,3 +12,14 @@
 - https://grok.com - From Elon Musk team
 - https://phind.com - Search engine
 - https://sakana.ai/fugu/ - Japanese Multi-Agent
+- https://usekoda.com/ - Polish closed AI system
+- https://opencode.ai/ - Open Source coding agent
+- https://openai.com/codex/ - OpenAI coding agents/environment
+
+# Learning
+- Umiejętności Jutra 3.0 - Notebook on AI in Polish: https://notebooklm.google.com/notebook/09740eba-35c3-44bb-baf1-0c5062c5e72b
+
+
+# AI Toys
+- https://www.getagentcraft.com/
+- https://github.com/agentsmill/age-of-agents
