@@ -48,4 +48,12 @@ Error code: Wsl/InstallDistro/E_ACCESSDENIED
   we can add it to PATH the `$env:PATH += ";$env:USERPROFILE\.local\bin"` and it seems to work.
 - Will monitor for why they said it requires WSL anyway.
 
+To recover our ability to run `git-bash` from command line, without it being overtaken by the `bash` from WSL, we did the following:
+- `Edit the system environment variables` Windows App -> Environment Variables -> System Variables -> `Path` -> Edit
+- Select `D:\<path to our>\git\usr\bin` and "Move Up" it to the top. Close with `Ok` on all windows.
+  - This might actually break something, but will see.
+- Additionally, we want aliases for this git-bash, so we do:
+  - Create `macros.cmd` file with `@doskey git-bash="d:\<path to our>\git\usr\bin\bash.exe" $*` in our `c:\Users\<user>\` directory
+  - Run `regedit` and add to a key in `Computer\HKEY_CURRENT_USER\Software\Microsoft\Command Processor` add
+  - New `String Value` named `AutoRun` with the value of `c:\Users\<user>\macros.cmd`
 
