@@ -42,5 +42,8 @@ Error code: Wsl/InstallDistro/E_ACCESSDENIED
 - Turns out more integrating work would be needed to get antigravity to work with `agents-cli` that is inside WSL distro.
 - Looked around and turns out that running `uvx` again gives us the list of tools installed
 - We can run the installed agents-cli executable with `uvx google-agents-cli`
+- Since `agents-cli.exe` was found in `"C:\Users\<user>\.local\bin\agents-cli.exe"` 
+  we can add it to PATH the `$env:PATH += ";$env:USERPROFILE\.local\bin"` and it seems to work.
+- Will monitor for why they said it requires WSL anyway.
 
 
