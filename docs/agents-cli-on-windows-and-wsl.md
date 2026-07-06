@@ -38,3 +38,9 @@ Error code: Wsl/InstallDistro/E_ACCESSDENIED
 - Went to `https://apps.microsoft.com/detail/9pdxgncfsczv` and downloaded Ubuntu installer
 - It said "The latest version is installed".
 - Clicked "Open" and got a console within the installed Ubuntu.
+- That works. Executing `bash` now starts a shell inside the WSL Ubuntu distro.
+- Turns out more integrating work would be needed to get antigravity to work with `agents-cli` that is inside WSL distro.
+- Looked around and turns out that running `uvx` again gives us the list of tools installed
+- We can run the installed agents-cli executable with `uvx google-agents-cli`
+
+
