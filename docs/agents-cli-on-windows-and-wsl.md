@@ -21,3 +21,20 @@ Use 'wsl.exe --list --online' to list available distributions
 and 'wsl.exe --install <Distro>' to install.
 ```
 - Our `bash` that came with git install ages ago, stopped working. It now seems to be aliased to the `wsl`.
+
+Going through https://learn.microsoft.com/en-us/windows/wsl/install-manual
+we run:
+- `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+- `wsl --set-default-version 2`
+- `wsl --install`
+Got an error: 
+```
+Downloading: Ubuntu
+Access is denied.
+Error code: Wsl/InstallDistro/E_ACCESSDENIED
+```
+- Downloaded `https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi`
+- Went to `https://apps.microsoft.com/detail/9pdxgncfsczv` and downloaded Ubuntu installer
+- It said "The latest version is installed".
+- Clicked "Open" and got a console within the installed Ubuntu.
