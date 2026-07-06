@@ -52,8 +52,16 @@ To recover our ability to run `git-bash` from command line, without it being ove
 - `Edit the system environment variables` Windows App -> Environment Variables -> System Variables -> `Path` -> Edit
 - Select `D:\<path to our>\git\usr\bin` and "Move Up" it to the top. Close with `Ok` on all windows.
   - This might actually break something, but will see.
-- Additionally, we want aliases for this git-bash, so we do:
-  - Create `macros.cmd` file with `@doskey git-bash="d:\<path to our>\git\usr\bin\bash.exe" $*` in our `c:\Users\<user>\` directory
-  - Run `regedit` and add to a key in `Computer\HKEY_CURRENT_USER\Software\Microsoft\Command Processor` add
-  - New `String Value` named `AutoRun` with the value of `c:\Users\<user>\macros.cmd`
 
+Additionally, we want aliases for this git-bash in both `cmd` and `powershell`, so we do:
+
+For `cmd`
+- For CMD we create `c:\Users\<user>\macros.cmd` file with `@doskey git-bash="d:\<path to our>\git\usr\bin\bash.exe" $*`
+- Run `regedit` and to a key in `Computer\HKEY_CURRENT_USER\Software\Microsoft\Command Processor` add
+- New `String Value` named `AutoRun` with the value of `c:\Users\<user>\macros.cmd`
+
+For PowerShell
+- Open `notepad $PROFILE` and add `function git-bash { & "d:\<path to our>\git\usr\bin\bash.exe" @args }`
+- If there's no such file, create it: `New-Item -Path $PROFILE -Type File -Force` and try again
+
+Now we have the old git-bash available across the system, we have `bash` executing the git-bash, and if we want the WSL bash, we need to run `wsl`
