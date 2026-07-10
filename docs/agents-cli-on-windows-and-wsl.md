@@ -46,7 +46,7 @@ Error code: Wsl/InstallDistro/E_ACCESSDENIED
 - We can run the installed agents-cli executable with `uvx google-agents-cli`
 - Since `agents-cli.exe` was found in `"C:\Users\<user>\.local\bin\agents-cli.exe"` 
   we can add it to PATH the `$env:PATH += ";$env:USERPROFILE\.local\bin"` and it seems to work.
-- Added this directory ``"C:\Users\<user>\.local\bin` to User's PATH variable. 
+- Added this directory `"C:\Users\<user>\.local\bin` to User's PATH variable. 
 - Will monitor for why they said it requires WSL anyway.
 
 To recover our ability to run `git-bash` from command line, without it being overtaken by the `bash` from WSL, we did the following:
