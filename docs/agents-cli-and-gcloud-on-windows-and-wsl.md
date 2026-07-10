@@ -1,4 +1,4 @@
-# Getting `Google Agents CLI` to work on Windows 10
+## Getting `Google Agents CLI` to work on Windows 10
 
 Google Agents CLI requires Python 3.11+, Node and `uv`. 
 - With `pyenv` installed Python 3.11 by:
@@ -66,3 +66,21 @@ For PowerShell
 - If there's no such file, create it: `New-Item -Path $PROFILE -Type File -Force` and try again
 
 Now we have the old git-bash available across the system, we have `bash` executing the git-bash, and if we want the WSL bash, we need to run `wsl`
+
+## Getting `gcloud` to work on Windows 10
+
+This was actually pretty straightforward. 
+First we install it according to the https://docs.cloud.google.com/sdk/docs/install-sdk 
+By doing in PowerShell: 
+```
+(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+& $env:Temp\GoogleCloudSDKInstaller.exe
+```
+Since we already have Python 3.11, we uncheck the option to install the bundled one. 
+
+Then we run `gcloud` in the Terminal, only to find out, the system asks us with what program do we want to open this file. 
+
+Turns out, the powershell command installing Google Cloud SDK, gives us a bunch of Python scripts initialized by a bash script.
+So to start this, we need to first run our trusty `bash`, and then `gcloud` works. 
+
+
