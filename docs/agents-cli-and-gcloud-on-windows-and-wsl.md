@@ -83,4 +83,41 @@ Then we run `gcloud` in the Terminal, only to find out, the system asks us with 
 Turns out, the powershell command installing Google Cloud SDK, gives us a bunch of Python scripts initialized by a bash script.
 So to start this, we need to first run our trusty `bash`, and then `gcloud` works. 
 
+But we want our Antigravity to be able to run it on its own. The `gcloud` package comes with its own `install.bat` that supposedly sets up the environment for seemless running in Windows. We run it in classis Windows shell `cmd`. We've received the following error: 
+```
+'"!PYTHON_CANDIDATE_PATH!"' is not recognized as an internal or external command,
+operable program or batch file.
+```
+When the `>echo %PYTHON_CANDIDATE_PATH%` returns:
+```
+C:\Users\<user>\AppData\Local\Microsoft\WindowsApps\python.exe
+```
+That is actually not a Python executable, but a Windows command Alias, that returns: 
+```
+>C:\Users\<user>\AppData\Local\Microsoft\WindowsApps\python.exe --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+```
+So we go to `Settings -> Apps -> App execution aliases` where we find two options named "App Installer" with descriptions `python.exe` and `python3.exe`. We turn these off by clicking their switches. 
+
+We retry the `install.bat` script, but now it gives us errors about 
+```
+'"!PYTHON_CANDIDATE_PATH!"' is not recognized as an internal or external command,
+operable program or batch file.
+```
+
+Where in fact, where we do `echo %PYTHON_CANDIDATE_PATH%` it actually is the `C:\Users\<user>\.pyenv\pyenv-win\shims\python.bat` file. 
+This file was detected by `where python` and treated by the install script as one of the python executable paths. 
+
+After some hacking of the `install.bat` script, we came to the conclusion that there must be a bug in evaluating the `!PYTHON_CANDIDATE_PATH!` value in this particular case, where the evaluation is nested within multiple `IF` and `FOR x IN y DO` blocks and resolves to a .pyenv shim. 
+The precise nature of the bug was not determined. 
+
+Moreover, if we supply these shims as the initial value for the `CLOUDSDK_PYTHON` variable, which the script uses as the predefined Python location, then the `install.bat` script just exits silently. 
+
+Following the discoveries by ts-pigeon at https://qiita.com/ts-pigeon/items/6e833ba5afb75dd81b51 (you might need to translate that) we've supplied the actual path of the `python.exe` binary, not the shims, to the `CLOUDSDK_PYTHON` variable and then ran the `install.bat`. 
+
+That made the script work properly. 
+
+It is also believed, that the entire issue could be averted if we chose to install the bundled python together with the Google Cloud SDK.
+
+
 
