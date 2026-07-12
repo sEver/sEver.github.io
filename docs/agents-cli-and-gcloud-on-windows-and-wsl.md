@@ -54,7 +54,7 @@ Error code: Wsl/InstallDistro/E_ACCESSDENIED
 - Will monitor for why they said it requires WSL anyway.
 
 To recover our ability to run `git-bash` from command line, without it being overtaken by the `bash` from WSL, we did the following:
-- `Edit the system environment variables` Windows App -> Environment Variables -> System Variables -> `Path` -> Edit
+- Run the `Edit the system environment variables` Windows App -> Environment Variables -> System Variables -> `Path` -> Edit
 - Select `D:\<path to our>\git\usr\bin` and "Move Up" it to the top. Close with `Ok` on all windows.
   - This might actually break something, but will see.
 
