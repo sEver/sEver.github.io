@@ -132,5 +132,8 @@ That made the script work properly.
 
 It is also believed, that the entire issue could be averted if we chose to install the bundled python together with the Google Cloud SDK.
 
+## Working with `gcloud` and `agents-cli`
+
+- `gloud config set project <project-id>` to configure the "active" project
 
 
