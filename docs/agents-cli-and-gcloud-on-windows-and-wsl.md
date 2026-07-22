@@ -134,6 +134,10 @@ It is also believed, that the entire issue could be averted if we chose to insta
 
 ## Working with `gcloud` and `agents-cli`
 
+- `agents-cli scaffold enhance --deployment-target agent_runtime --yes` to create deployment config for your agent
+- `uv lock` to create a `uv.lock` file if not done already
 - `gloud config set project <project-id>` to configure the "active" project
+- `agents-cli deploy --dry-run --project <project-id>` to test if the deploy config is ok
+- `gcloud config set compute/region <your-region>` to set up a region for deployment
 
 
