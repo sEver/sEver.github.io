@@ -139,5 +139,7 @@ It is also believed, that the entire issue could be averted if we chose to insta
 - `gloud config set project <project-id>` to configure the "active" project
 - `agents-cli deploy --dry-run --project <project-id>` to test if the deploy config is ok
 - `gcloud config set compute/region <your-region>` to set up a region for deployment
-
+- `gcloud auth application-default login` to setup "Application Default Credentials"
+- `agents-cli deploy --project <project-id>` to initiate the actual deploy
+  - If you get a 403 error, you might need to enable the Agent Platform API for that project at https://console.cloud.google.com/apis/library/aiplatform.googleapis.com?project=<project-id>
 
