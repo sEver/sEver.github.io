@@ -142,4 +142,5 @@ It is also believed, that the entire issue could be averted if we chose to insta
 - `gcloud auth application-default login` to setup "Application Default Credentials"
 - `agents-cli deploy --project <project-id>` to initiate the actual deploy
   - If you get a 403 error, you might need to enable the Agent Platform API for that project at https://console.cloud.google.com/apis/library/aiplatform.googleapis.com?project=<project-id>
-
+  - If you don't explicitly set `--region <your-region>` on the deploy command, the deployment might actually default to `us-east1` even though you've set your region above
+  - Turns out, at least on the Free $300 Cloud Trial it might be needed to leave the default region. We've had issues when deploying to europe one.
