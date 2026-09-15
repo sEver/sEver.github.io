@@ -1,4 +1,4 @@
-#Webgarden 
+# Webgarden 
 Some random notes from a market research about a coding app
 
 ## Nerdy gold
@@ -17,7 +17,6 @@ Some random notes from a market research about a coding app
 
 ## Tools
 - https://hackmd.io/
-- 
 
 ## Software agencies 
 (some of these are pretty ugly)
@@ -33,4 +32,4 @@ Some random notes from a market research about a coding app
 - https://www.webcraftlabs.dev/
 - https://www.webtechcrafter.com/
 - https://websmith.ie/
-- 
+- https://www.zencraftstudio.com/
