@@ -15,3 +15,6 @@
 - https://datalemur.com/sql-game/level1.html
 - https://www.kaggle.com/discussions/getting-started/566060
 - https://sqlprotocol.com/
+
+## FOR JS
+- https://untrustedgame.com/
