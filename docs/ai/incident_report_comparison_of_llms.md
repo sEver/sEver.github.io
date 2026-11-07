@@ -2,7 +2,21 @@
 
 > Human-made analysis.
 
-After the incident where AI model (GLM by z.ai) refused to help creating an emergency message [see here](https://sever.github.io/docs/ai/incident_report_krakow_ai_refusal.html) we've tried the same prompt with several other AI systems, for comparison:
+After the incident where AI model (GLM by z.ai) refused to help creating an emergency message 
+[see here](https://sever.github.io/docs/ai/incident_report_krakow_ai_refusal.html) 
+we've tried the same prompt with several other AI systems, for comparison.
+
+Certainly a discussion is needed about the systems we can put in place to not have AI's 
+"policies" be detrimental to their usefulness, especially in emergency situations. 
+If we're to treat the AI as a tool in daily work, can we afford having its 
+artificial judgment decide whether it will be willing to help us and when? 
+
+That is perhaps a conversation for another article. Below we just compare, 
+which models complied with a simple request, actually making it possible to 
+help the user in getting a message out a few minutes quicker, 
+and which ones made the tragic situation even worse by refusing to cooperate. 
+
+Starting with the worst offenders, and improving as we go:
 
 ## The prompt: 
 
